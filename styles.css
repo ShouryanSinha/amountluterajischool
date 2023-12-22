@@ -1,0 +1,32 @@
+body{
+	background-image: url('b.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #00009f;
+    }
+
+    .li {
+      float: right;    
+    }
+
+    .li a {
+      display: block;
+      color: #ffffff;
+      background-color: #00009a;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .li a:hover {
+      background-color: #00006f;
+    }
